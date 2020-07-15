@@ -1,0 +1,27 @@
+{
+  "title": "Hello World Scenario",
+  "description": "Your First Scenario",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Run Command",
+      "text": "step1.md",
+      "code": "setup.sh"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "uilayout": "terminal"
+  },
+  "backend": {
+     "imageid": "openshift-4-2"
+  }
+}
